@@ -83,3 +83,11 @@ body{
     background-size: cover;
 
 }
+.more-info-button{
+    width: 17.5vw;
+    height: 6.25vh;
+    border-radius: 3.125vh;
+    border:none;
+    background-color: #FDD33D;
+    font-size: 2vh;
+}
