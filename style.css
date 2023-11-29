@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+/*Navagation*/
+.navagation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7.5vh;
+}
+.navagation-menu ul{
+    display: inline;
+    list-style: none;
+}
+.navagation-menu ul li{
+    display: inline;
+    margin: 2.5vw;
+}
+.navagation-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navagation-logo, .navagation-menu, .navagation-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navagation-logo{
+    width: 15%;
+    user-select: none;
+}
+.navagation-logo p{
+    font-weight: bold;
+    font-size: 3vh;
+}
+.navagation-logo:hover{
+    cursor: default;
+}
+.navagation-menu{
+    width: 70%;
+}
+.navagation-login{
+    width: 15%;
+}
+.navagation-login p{
+    width: 8vw;
+    height: 5vh;
+    background-color: #FDD33D;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+}
+.navagation-login p:hover{
+    cursor: pointer;
+}
+
+
+/*Body*/
+.body-container{
+    height: 92.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info-card{
+    width: 35%;
+}
+.info-image-card{
+    width: 35%;
+    height: 45%;
+    border-radius: 10%;
+    background: url(https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg);
+    background-size: cover;
+
+}
