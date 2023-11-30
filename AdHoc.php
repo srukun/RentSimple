@@ -9,13 +9,14 @@
 <body>
     <div class="navagation-container">
         <div class="navagation-logo">
-            <p>RentSimple</p>
+            <p>Ad Hoc Query</p>
         </div>
         <div class="navagation-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="relations.php">Relations</a></li>
                 <li><a href="Queries.php">Queries</a></li>
+                <li><a href="Queries.php">Ad Hoc Query</a></li>
             </ul>
         </div>
         <div class="navagation-login">
