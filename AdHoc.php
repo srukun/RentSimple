@@ -32,7 +32,10 @@ if (!isset($_SESSION['user'])) {
     </div>
     <div class="body-container">
         <div class="info-container">
-            <p>Please enter your query here</p>
+            <p>
+            Please enter your query here
+
+            </p>
         </div>
         <div class="buttons">
             <div>

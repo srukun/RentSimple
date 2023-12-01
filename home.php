@@ -37,7 +37,7 @@
             <p>RentSimple</p>
             <h1>Find Your Next Home</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam maiores cupiditate dicta? Repellendus consectetur perferendis alias mollitia exercitationem nesciunt inventore similique! Nesciunt obcaecati labore aliquid commodi est, doloremque in omnis.</p>
-            <button class="more-info-button">More Information</button>
+            <a href="relations.php"><button class="more-info-button">More Information</button></a>
         </div>
         <div class="info-image-card">
             

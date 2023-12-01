@@ -4,6 +4,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: black;
+    overflow-x: hidden;
 }
 /*Navagation*/
 .navagation-container{
@@ -13,6 +14,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 7.5vh;
+    z-index: 100;
 }
 .navagation-menu ul{
     display: inline;
@@ -52,7 +54,7 @@ body{
 .navagation-login p{
     width: 8vw;
     height: 5vh;
-    background-color: #FDD33D;
+    background-color: #2470FF;
     user-select: none;
     display: flex;
     justify-content: center;
@@ -72,16 +74,17 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 .info-container{
-    height: 10%;
+    
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .buttons{
-    height: 20%;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,7 +94,7 @@ body{
 .buttons button{
     width: 10vw;
     height: 5vh;
-    background-color: #FDD33D;
+    background-color: #2470FF;
     border: none;
     border-radius: .5vh;
     margin-top: 1vh;
@@ -107,7 +110,7 @@ table {
   }
   
   table th {
-    background-color: #FDD33D;
+    background-color: #2470FF;
     color: black;
     font-weight: bold;
     padding: 8px;
@@ -155,7 +158,7 @@ table {
 
   h1 {
     text-align: center;
-    color: #FDD33D;
+    color: #2470FF;
   }
 
 
@@ -174,7 +177,7 @@ table {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #FDD33D;
+    background-color: #2470FF;
     color: white;
     border: none;
     border-radius: 3px;
@@ -183,7 +186,7 @@ table {
   }
 
   button:hover {
-    background-color: #ffb400;
+    background-color: #2470FF;
   }
 
   p {
@@ -192,7 +195,7 @@ table {
   }
 
   a {
-    color: #FDD33D;
+    color: #2470FF;
     text-decoration: none;
   }
 
@@ -205,3 +208,4 @@ table {
     text-decoration: none;
     color: white;
 }
+

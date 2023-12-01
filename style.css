@@ -52,7 +52,7 @@ body{
 .navagation-login p{
     width: 8vw;
     height: 5vh;
-    background-color: #FDD33D;
+    background-color: #2470FF;
     user-select: none;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body{
     height: 6.25vh;
     border-radius: 3.125vh;
     border:none;
-    background-color: #FDD33D;
+    background-color: #2470FF;
     font-size: 2vh;
     color: white;
 }

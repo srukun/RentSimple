@@ -32,7 +32,25 @@ if (!isset($_SESSION['user'])) {
     </div>
     <div class="body-container">
         <div class="info-container">
-            <p>Click one of the relations to excute SQL query</p>
+            <p>Click one of the relations to excute SQL query
+            <br>
+            Description:
+            <br>
+            1.Avg cost per city - Gets the average cost of properties grouped by city
+            <br>
+            2.Get Review By Property - Lists all reviews and the names of users that created them
+            <br>
+            3.Rated Everyone 3 and under- Gets all properties rated 3 stars and under 
+            <br>
+            4.Greater than 2 bookmarks - Takes all users that left two or more bookmarks on a property, and returns the PropertyID along with the user who left the bookmark.
+            <br>
+            5.All Bookmarks - Lists all bookmarks and the names of users that saved them
+            <br>
+            6.Get Properties Not Bookmarked - Lists all properties that have not been bookmarked by any user.
+
+
+
+            </p>
         </div>
         <div class="buttons">
             <div>
