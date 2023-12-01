@@ -36,14 +36,14 @@ if (!isset($_SESSION['user'])) {
         </div>
         <div class="buttons">
             <div>
-                <a href="Queries.php?action=avg_cost_city"><button >Average Cost Per City</button></a>
-                <a href="Queries.php?action=get_review_property"><button >Get Review By Property</button></a>
-                <a href="Queries.php?action=get_all_property"><button >Search By Cost</button></a>
+                <a href="Queries.php?action=avg_cost_city"><button >Query1</button></a>
+                <a href="Queries.php?action=get_review_property"><button >Query2</button></a>
+                <a href="Queries.php?action=get_all_property"><button >Query3</button></a>
             </div>
             <div>
-                <a href="Queries.php?action=get_users_two_plus_bookmarks"><button >Search by bookmarks</button></a>
-                <a href="Queries.php?action=get_all_bookmarks"><button >All bookmarks</button></a>
-                <a href="Queries.php?action=get_properties_not_bookmarked"><button >Properties not bookmarked</button></a>
+                <a href="Queries.php?action=get_users_two_plus_bookmarks"><button >Query4</button></a>
+                <a href="Queries.php?action=get_all_bookmarks"><button >Query5</button></a>
+                <a href="Queries.php?action=get_properties_not_bookmarked"><button >Query6</button></a>
 
             </div>
         </div>

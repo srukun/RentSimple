@@ -106,6 +106,7 @@ if (!isset($_SESSION['user'])) {
                     break;
                 case 'update':
                     $sql = "UPDATE " . $_POST['query'];
+                    echo "$sql";
                     if ($conn->query($sql) === TRUE) {
                         echo "Record updated successfully";
                     } else {
@@ -136,7 +137,7 @@ if (!isset($_SESSION['user'])) {
                     if (mysqli_num_rows($result) > 0) {
                         echo "<table border='1'><tr>";
                 
-                        $row = mysqli_fetch_assoc($result);
+                        
                         $numColumns = mysqli_num_fields($result);
                 
                         for ($i = 0; $i < $numColumns; $i++) {
