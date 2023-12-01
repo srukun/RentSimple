@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +16,11 @@
         </div>
         <div class="navagation-menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="relations.php">Relations</a></li>
-                <li><a href="Queries.php">Queries</a></li>
-                <li><a href="AdHoc.php">Ad Hoc Query</a></li>
+                
             </ul>
         </div>
         <div class="navagation-login">
-            <p>Login</p>
+            <p><a href="login.php">Login</a></p>
         </div>
     </div>
     <div class="body-container">
@@ -28,12 +28,13 @@
             <p>RentSimple</p>
             <h1>Find Your Next Home</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam maiores cupiditate dicta? Repellendus consectetur perferendis alias mollitia exercitationem nesciunt inventore similique! Nesciunt obcaecati labore aliquid commodi est, doloremque in omnis.</p>
-            <button class="more-info-button">More Information</button>
+            <a href="register.php"><button class="more-info-button">Register Now</button></a>
         </div>
         <div class="info-image-card">
             
         </div>
     </div>
-    
+
+
 </body>
 </html>

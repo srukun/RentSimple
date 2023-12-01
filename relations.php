@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    header("Location: index.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +20,14 @@
         </div>
         <div class="navagation-menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li><a href="relations.php">Relations</a></li>
                 <li><a href="Queries.php">Queries</a></li>
+                <li><a href="AdHoc.php">Ad Hoc Query</a></li>
             </ul>
         </div>
         <div class="navagation-login">
-            <p>Login</p>
+            <a href="logout.php"><p>Logout</p></a>
         </div>
     </div>
     <div class="body-container">
@@ -63,7 +71,7 @@
 
             switch($action){
                 case 'display_users':
-                    $sqlSelectUsers = "SELECT * FROM Users";
+                    $sqlSelectUsers = "SELECT * FROM Users Order By FirstName";
                     break;
                 case 'display_tenants':
                     $sqlSelectUsers = "SELECT * FROM Tenants";

@@ -90,4 +90,13 @@ body{
     border:none;
     background-color: #FDD33D;
     font-size: 2vh;
+    color: white;
+}
+.more-info-button:hover{
+    cursor: pointer;
+}
+/*index php*/
+.navagation-login a{
+    text-decoration: none;
+    color: white;
 }
