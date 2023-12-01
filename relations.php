@@ -47,7 +47,7 @@ if (!isset($_SESSION['user'])) {
 
             </div>
         </div>
-        <div id="display-area">
+        <div id="display-area" class="display-overflow">
 
             <?php
             $servername = "cssql.seattleu.edu";

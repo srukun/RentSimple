@@ -209,3 +209,7 @@ table {
     color: white;
 }
 
+.display-overflow{
+  overflow: auto;
+  height: 50vh;
+}
