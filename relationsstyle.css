@@ -77,7 +77,7 @@ body{
 
 }
 .info-container{
-    
+    text-align: left;
     width: 100%;
     display: flex;
     justify-content: center;
